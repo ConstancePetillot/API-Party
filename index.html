@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API-Party</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <form action="" method="get" class="partyForm">
+      <div class="partyForms">
+        <label for="name">Entrez le nom de la soirée: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="partyForms">
+        <label for="author">Entrez votre nom: </label>
+        <input type="text" name="author" id="author" required />
+      </div>
+      <div class="partyForms">
+        <label for="date">Entrez la date: </label>
+        <input type="text" name="date" id="date" />
+      </div>
+      <div class="partyForms">
+        <input type="submit" value="Post" />
+      </div>
+    </form>
+  </body>
+</html>
